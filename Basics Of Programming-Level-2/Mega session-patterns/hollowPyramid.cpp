@@ -13,7 +13,7 @@ void hollowPyramid(int n){
                 cout<<"* ";
             }
             else{
-                cout<<"  ";
+                cout<<"  "; //cout<<"* "; to print full pyramid
             }
         }
         cout<<endl;
