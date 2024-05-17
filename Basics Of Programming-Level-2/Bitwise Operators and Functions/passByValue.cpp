@@ -3,6 +3,7 @@ using namespace std;
 //pass by reference
 void solve(int a){
     a=a+10;
+    cout<<a<<endl;
     return;
 }
 int main(){
