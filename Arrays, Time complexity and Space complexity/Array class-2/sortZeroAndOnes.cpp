@@ -19,7 +19,7 @@ void sortZeroOne(int arr[], int n){
     for(;i<zeroCount;i++){
         arr[i]=0;
     }
-    for(;i<n;i++){
+    for(i=zeroCount;i<n;i++){
         arr[i]=1;
     }
     //method-2
