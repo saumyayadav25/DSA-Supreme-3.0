@@ -30,6 +30,10 @@ int main(){
     int arr[]={0,1,1,1,0,0,1,1};
     int size=8;
     sortZeroOne(arr,size);
+    
+    //using sort inbuilt function
+    // sort(arr,arr+size);
+    
     //printing the array
     for(int i=0; i<size;i++){
         cout<<arr[i]<<" ";
