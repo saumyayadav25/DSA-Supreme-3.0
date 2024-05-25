@@ -1,4 +1,5 @@
 //single number( alternative approach of XOR method)
+//leetcode
 class Solution{
 public:
     int sigleNumber(vector<int>& nums){
