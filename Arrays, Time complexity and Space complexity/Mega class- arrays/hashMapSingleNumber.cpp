@@ -1,4 +1,3 @@
-//single number
 //leetcode 136: single number
 class Solution{
 public:
