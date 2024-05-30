@@ -23,12 +23,12 @@ int applyBinarySearch(int arr[], int size, int target){
             return mid+1;
         }
         if(target>arr[mid]){
-            //left
-            e=mid-2;
-        }
-        else{
             //right
             s=mid+2;
+        }
+        else{
+            //left
+            e=mid-2;
         }
         mid=s+(e-s)/2;
     }
