@@ -10,7 +10,7 @@ int getQuotient(int dividend , int divisor){
     //search space: (-ve dividend)->(+ve dividend)
     int s=0;
     int e=dividend;
-    int mid = s + ((e-s) >> 1);
+    int mid = s + ((e-s) >> 1); //because "/" operator is not allowed
     int ans=-1;
     while(s<=e){
         // cout<<"printing mid: "<<mid<<endl;
