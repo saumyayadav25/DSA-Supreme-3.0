@@ -1,7 +1,7 @@
 //leetcode 852: peak index in a mountain array
 class Solution {
 public:
-    int findPeakElement(vector<int>& nums) {
+    int peakIndexInMountainArray(vector<int>& arr) {
         int ans=-1;
         int start=0;
         int end= arr.size() -1;
