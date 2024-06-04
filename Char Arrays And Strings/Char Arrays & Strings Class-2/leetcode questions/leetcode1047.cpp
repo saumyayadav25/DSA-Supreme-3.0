@@ -6,16 +6,14 @@ public:
         int n = s.length();
         for(int i=0;i<n;i++){
             char currcharacter = s[i];
-            if(ans.empty()){
+            if(ans.empty() || currcharacter != ans.back()){
                 ans.push_back(currcharacter);
             }
             else if(currcharacter == ans.back()){ //rightmost character
                 ans.pop_back();
             }
-            else if(currcharacter != ans.back()){
-                ans.push_back(currcharacter);         
-            }
         }
         return ans;
     }
 };
+
