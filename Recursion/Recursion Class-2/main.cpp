@@ -87,4 +87,4 @@ int main(){
     int n=21478;
     printDigits(n);
     return 0;
-}
+} 
