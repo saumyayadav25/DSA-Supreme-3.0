@@ -107,15 +107,15 @@ void deleteNodeFromLL(int position, Node* &head, Node* &tail){
         }
         else{
             // 2nd case: any other node except first one
-            Node* prev = head;
-            for(int i=0; i<position-2;i++){
-                prev = prev->next;
+            Node* temp = head;
+            for(int i=0; i<pos-2;i++){
+                temp = temp->next;
             }
-            Node* curr = prev->next;
-            Node* forward = curr->next;
-            prev->next = forward;
-            curr->next = NULL;
-            delete curr;
+            Node* nodeToDelete = temp->next;
+            Node* forward = nodeToDelete->next;
+            temp->next = forward;
+            nodeToDelete->next = NULL;
+            delete nodeToDelete;
         }
     }
 }
