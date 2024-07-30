@@ -15,8 +15,7 @@ void insertAtBottom(stack<int>&s, int value){
     s.pop();
 
     insertAtBottom(s,value);
-
-    // backtrack
+    // backtracking
     s.push(topElement);
 }
 int main(){
