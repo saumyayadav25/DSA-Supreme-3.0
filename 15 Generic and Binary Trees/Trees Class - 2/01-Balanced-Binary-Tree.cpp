@@ -38,3 +38,5 @@ public:
         else return false;
     }
 };
+
+// fast way: in assignment

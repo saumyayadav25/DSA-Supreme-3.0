@@ -33,3 +33,5 @@ public:
         return maxDiamater;
     }
 };
+
+// fast way: in assignment
