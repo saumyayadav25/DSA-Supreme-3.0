@@ -128,7 +128,6 @@ public:
     }
     
     int solveUsingTabOptimised(int n){
-        // step 1: create dp array: 1d dp
         if(n==0) return 0;
         if(n==1) return 1;
         int prev = 0;
