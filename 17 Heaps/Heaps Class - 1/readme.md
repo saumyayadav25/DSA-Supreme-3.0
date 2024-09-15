@@ -17,6 +17,7 @@ A complete binary tree is a special type of binary tree where all the levels of 
 **Heaps: visualise as Tree and implemented as array(easy to access elements)**
 
 (1 based indexing)
+
 ![image](https://github.com/user-attachments/assets/1aeb1b45-fb05-450a-8c99-9e3d6a2f0e53)
 
 
