@@ -1,5 +1,5 @@
-class Solution{
-    public:
+class Solution {
+  public:
     bool isPossibleSolution(int A[],int N,int M, int sol){
         int pageSum=0;
         int c=1;
@@ -20,7 +20,8 @@ class Solution{
         }
         return true;
     }
-    int findPages(int A[], int N, int M){
+    // Function to find minimum number of pages.
+    long long findPages(int N, int A[], int M) {
         if(M>N) return -1;
 
         int start=0;
