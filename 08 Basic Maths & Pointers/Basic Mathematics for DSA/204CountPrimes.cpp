@@ -1,6 +1,6 @@
 // leetcode 204: Count Primes
 
-// M-3 -> sieve of Eratosthenes
+// M-3 -> sieve of Eratosthenes: TC: O(N*(log(logN)))
 class Solution {
 public:
     int countPrimes(int n) {
