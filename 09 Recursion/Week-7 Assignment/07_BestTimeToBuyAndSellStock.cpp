@@ -23,7 +23,7 @@ public:
 
 
 
-// iterative approach: TC:o(N)
+// iterative approach: TC:O(N)
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
