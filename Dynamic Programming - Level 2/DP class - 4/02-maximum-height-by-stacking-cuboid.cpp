@@ -101,7 +101,7 @@ public:
             sort(cuboid.begin(), cuboid.end());
         }
         // sorting all cuboids
-        sort(cuboids.begin(), cuboids.end());
+        sort(cuboids.begin(), cuboids.end()); //0 based sorting;      //1 based sorting: done in mega class
         int curr = 0;
         int prev = -1;
         // int ans = solveRec(cuboids,curr,prev);
