@@ -45,3 +45,45 @@ public:
         return slow;   //starting point
     }
 };
+
+
+
+
+
+
+
+
+//(self) gfg solution:
+class Solution {
+  public:
+    // Function to remove a loop in the linked list.
+    void removeLoop(Node* head) {
+        if(head==NULL) return;
+        Node*slow = head;
+        Node*fast = head;
+        bool cycleExist = false;
+        while(fast){
+            fast = fast->next;
+            if(fast){
+                fast = fast->next;
+                slow = slow->next;
+            }
+            if(fast==slow){
+                cycleExist = true;
+                break;
+            }
+        }
+        
+        if(!cycleExist) return;
+        slow = head;
+        while(slow!=fast){
+            slow = slow->next;
+            fast = fast->next;
+        }
+        Node* slowMeetFastHere = slow;
+        while(fast->next!=slowMeetFastHere){
+            fast = fast->next;
+        }
+        fast->next = NULL;
+    }
+};
