@@ -1,7 +1,5 @@
 // leetcode 1192. Critical Connections in a Network
 
-// leetcode 1192. Critical Connections in a Network
-
 class Solution {
 public:
     void countBridges(int src, int parent, vector<int>& tin, vector<int>& low, unordered_map<int,bool>& vis, int timer,vector<vector<int> >& ans, unordered_map<int,list<int> >& adj){
