@@ -52,7 +52,7 @@ Time Complexity: O(V + E)
 Space Complexity: O(V + E), where E is the number of edges.
 
 
-# Breadth First Search Traversal (BFS Traversal) : directed Graph
+# Breadth First Search Traversal (BFS Traversal)
 - Traversal technique where vertices are visited level by level using a queue.  
 
 - To avoid visiting a node more than once, we use a **boolean visited array**.  
